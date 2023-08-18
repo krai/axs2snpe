@@ -1,7 +1,7 @@
 axs2snpe
 ===============================================
 
-In this repository we keep [axs](https://github.com/krai/axs) entries related to downloading the SNPE SDK, libraries and models.
+In this repository we keep [axs](https://github.com/krai/axs) entries related to download the SNPE SDK, libraries and models.
 
 To import this repository and its dependencies into your **work_collection** , run
 ```
