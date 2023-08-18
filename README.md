@@ -1,4 +1,4 @@
-# axs2snpe-dev
+# axs2snpe
 
 Recipe for downloading the SNPE SDK, libraries and models.
 Please keep in mind the SNPE SDK development environment is limited to Ubuntu version 18.04.
