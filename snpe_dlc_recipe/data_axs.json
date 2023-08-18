@@ -1,0 +1,16 @@
+{
+    "_producer_rules": [
+                [ [ "snpe_dlc","model_name=resnet50" ], [["get_kernel"],["byname","downloader"],["download"]], {
+            "downloading_tool_query": "shell_tool,can_download_url_from_google_drive",
+            "url": "https://drive.google.com/uc?id=149gdQhdR8dp8czbfKO0M-dCC8bcgMRbi",
+            "file_path": "resnet50_v1_modified.dlc",
+            "entry_name": "downloaded_resnet50_v1_modified.dlc",
+
+            "starting_weights_filename": "https://zenodo.org/record/2535873/files/resnet50_v1.pb",
+            "retrained": false,
+            "input_data_types": "fp32",
+            "weight_data_types": "fp32",
+            "weight_transformations": "TF -> DLC"
+        }, [] ]
+    ]
+}

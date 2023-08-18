@@ -1,0 +1,19 @@
+{
+    "_producer_rules": [	
+				[ [ "downloaded", "snpe_lib" ], [["get_kernel"],["byname","downloader"],["download"]], {
+            "downloading_tool_query": "shell_tool,can_download_url_from_google_drive",
+            "url": "https://drive.google.com/uc?id=1a3YJo-soJLzB7SA0JXB59OxWo5sIRxJc",
+            "file_path": "snpe-1.60.0.3313.zip",
+            "entry_name": "downloaded_snpe-1.60.0.3313.zip"
+        }, [] ],
+
+        [ [ "extracted", "snpe_lib" ], [["get_kernel"],["byname", "extractor"],["extract"]], {
+        }, ["archive_path", "file_name" ]]
+    ],
+
+    "file_name": "extracted/snpe-1.60.0.3313",
+    "archive_path": [ "AS^IS", "^", "execute", [[
+        [ "byquery", [[ "^^", "substitute", "downloaded,snpe_lib" ]]],
+        [ "get_path" ]
+    ]], {}, [] ]
+}
