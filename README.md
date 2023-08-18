@@ -1,6 +1,13 @@
-# axs2snpe
+axs2snpe
+===============================================
 
-Recipe for downloading the SNPE SDK, libraries and models.
+In this repository we keep [axs](https://github.com/krai/axs) entries related to downloading the SNPE SDK, libraries and models.
+
+To import this repository and its dependencies into your **work_collection** , run
+```
+axs byquery git_repo,collection,repo_name=axs2snpe
+```
+
 Please keep in mind the SNPE SDK development environment is limited to Ubuntu version 18.04.
 Setup Link: [https://developer.qualcomm.com/sites/default/files/docs/snpe/setup.html](https://developer.qualcomm.com/sites/default/files/docs/snpe/setup.html)
 
