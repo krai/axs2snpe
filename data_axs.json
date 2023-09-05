@@ -16,9 +16,9 @@
     ],
     "contained_entries": {
         "snpe_lib_recipe": "snpe_lib_recipe",
-				"snpe_dlc_recipe": "snpe_dlc_recipe",
-				"snpe_dlc_quantized_recipe": "snpe_dlc_quantized_recipe"
+	"snpe_dlc_recipe": "snpe_dlc_recipe",
+	"snpe_dlc_quantized_recipe": "snpe_dlc_quantized_recipe"
     },
-    "repo_name": "axs2snpe-dev",
+    "repo_name": "axs2snpe",
     "submodules": false
 }
