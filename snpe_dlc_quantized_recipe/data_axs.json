@@ -6,7 +6,7 @@
             "file_path": "resnet50_v1_modified_quantized.dlc",
             "entry_name": "downloaded_resnet50_v1_modified_quantized.dlc",
 
-            "starting_weight_filename": "https://zenodo.org/record/2535873/files/resnet50_v1.pb",
+            "starting_weights_filename": "https://zenodo.org/record/2535873/files/resnet50_v1.pb",
             "retrained": false,
             "input_data_types": "fp32",
             "weight_data_types": "int8",
